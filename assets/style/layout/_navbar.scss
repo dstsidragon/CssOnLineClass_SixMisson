@@ -1,0 +1,84 @@
+
+
+
+
+
+.logoImg{
+    width: 128px;
+    height: auto;
+    background:center center no-repeat url(/assets/images/d’Perfume.png);
+    text-indent: 101%;
+    overflow: hidden;
+    word-spacing:nowrap !important;
+}
+
+.icon-cart{
+    &.text-success{
+        &:hover{
+            color: $primary !important;
+        }
+    }
+    position: relative;
+    &::after {
+        content: '3';
+        font-family: normal;
+        width: 16px;
+        height: 13px;
+        background-color: #916019;
+        display: block;
+        color: #fff;
+        border-radius: 7px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 1;
+        position: absolute;
+        top: -5px;
+        left: 12px;
+    }
+    
+}
+
+.nav-link.bg-info {
+    
+    border-bottom: 2px solid transparent !important;
+    &:active{
+        background-color: #FFFFFF !important;
+        color:$primary !important;
+    }
+    &:hover{
+        background-color: #FFFFFF !important;
+        color:$primary !important;
+    }
+    &:focus{
+        background-color: #FFFFFF !important;
+        color:$primary !important;
+    }
+
+    @include pad{
+        background: #FFFFFF !important;
+        color:$info !important;
+        &:active{
+            color: $primary !important;
+            border-bottom: 2px solid $primary !important;
+            padding-bottom: 5px !important;
+            
+        }
+        &:hover{
+            color: $primary !important;
+            border-bottom: 2px solid $primary !important;
+            padding-bottom: 5px !important;
+            
+            }
+        &:focus{
+            color: $primary !important;
+            border-bottom: 2px solid $primary !important;
+            padding-bottom: 5px !important;
+            background: #FFFFFF !important;
+        }
+            
+        
+    }
+}
+
+
+// bg-md-info border-md border-md-white text-md-white
