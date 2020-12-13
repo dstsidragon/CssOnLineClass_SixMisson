@@ -1,0 +1,13 @@
+.footer-images{
+    background: center center no-repeat url(../images/d’Perfumewhite.png);
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+    
+}
+
+.footer-link{
+    &:hover{
+        color: $secondary!important;
+    }
+}
