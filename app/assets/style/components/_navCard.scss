@@ -1,0 +1,37 @@
+
+// navCard
+.navCard-background{
+    background: $primary !important;
+    display: none;
+    @include mobile{
+        display: block;
+    } 
+}
+
+
+.navCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;  
+    @include pad{
+        justify-content:start;
+    }
+}
+.navCard-link {
+    display: block;
+    padding: 8px;
+    color:white !important;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    &:hover{
+        color: $primary !important;
+        background:white ;
+    }
+
+    @include pad{
+        font-size: 20px;
+        padding: 16px;
+    }
+}
