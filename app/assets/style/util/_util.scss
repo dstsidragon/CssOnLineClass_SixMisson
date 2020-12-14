@@ -7,11 +7,17 @@
 .fz-14{
     font-size: 14px;
 }
+.fz-16{
+    font-size: 16px;
+}
 .fz-18{
     font-size: 18px;
 }
 .fz-20{
     font-size: 20px;
+}
+.fz-32{
+    font-size: 32px;
 }
 
 //字體
@@ -47,6 +53,9 @@
 }
 .mt-4{ 
     margin-top: 32px !important;
+}
+.mt-39{ 
+    margin-top: 312px !important;
 }
 .mt-50{ 
     margin-top: 200px !important;
@@ -92,13 +101,21 @@
 }
 
 //內推擠
-
+.pd-1{
+    padding: 8px !important;
+}
+.pd-2{
+    padding: 16px !important;
+}
 
 .pt-1{
     padding-top: 8px !important;
 }
 .pt-2{
     padding-top: 16px !important;
+}
+.pt-39{
+    padding-top: 312px !important;
 }
 
 .pl-1{

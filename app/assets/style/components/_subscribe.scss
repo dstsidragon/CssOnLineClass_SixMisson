@@ -1,0 +1,25 @@
+.subscribe{
+    height: 600px;
+    background: center center no-repeat url(../images/index10.jpg);
+    background-size: cover;
+    
+}
+.subscribe-link{
+    font-family: SF Pro Text;
+    border-radius: 0px 4px 4px 0px;
+    &:hover{
+        color: #FFFFFF !important;
+        background: $orange;
+    }
+    @include miniMobile{
+        font-size: 10px !important;
+    }
+}
+.subscribe-tittle{
+    @include miniMobile{
+        font-size: 28px !important;
+    }
+}
+.subscribe-text{
+    border-radius: 4px;
+}
