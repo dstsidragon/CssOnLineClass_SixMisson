@@ -70,7 +70,7 @@ $success:       #8D8D8D !default;
 $info:          #707070 !default;
 $warning:       #FFFFFF !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
+$light:         #FFFFFF !default;
 $dark:          $gray-800 !default;
 
 $theme-colors: () !default;
@@ -150,6 +150,34 @@ $spacers: map-merge(
     10: ($spacer * 10),
     11: ($spacer * 11),
     12: ($spacer * 12),
+    13: ($spacer * 13),
+    14: ($spacer * 14),
+    15: ($spacer * 15),
+    16: ($spacer * 16),
+    17: ($spacer * 17),
+    18: ($spacer * 18),
+    19: ($spacer * 19),
+    20: ($spacer * 20),
+    21: ($spacer * 21),
+    22: ($spacer * 22),
+    23: ($spacer * 23),
+    24: ($spacer * 24),
+    25: ($spacer * 25),
+    26: ($spacer * 26),
+    27: ($spacer * 27),
+    28: ($spacer * 28),
+    29: ($spacer * 29),
+    30: ($spacer * 30),
+    31: ($spacer * 31),
+    32: ($spacer * 32),
+    33: ($spacer * 33),
+    34: ($spacer * 34),
+    35: ($spacer * 35),
+    36: ($spacer * 36),
+    37: ($spacer * 37),
+    38: ($spacer * 38),
+    39: ($spacer * 39),
+
   ),
   $spacers
 );

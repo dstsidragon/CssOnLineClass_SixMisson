@@ -1,0 +1,13 @@
+.banner{
+    background: center center no-repeat url(../images/index1.jpg);
+    height: 480px;
+    background-size: cover;
+    font-family: SF Pro Text;
+    @include mobile{
+        height: 870px;
+    }
+
+    &-link{
+        border-radius: 30px;
+    }
+}
