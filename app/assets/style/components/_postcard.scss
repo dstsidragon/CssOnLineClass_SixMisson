@@ -1,0 +1,8 @@
+.postcard{
+    font-family: SF Pro Text;
+    
+    &-img{
+        //CSS Filters濾鏡效果 brightness亮度
+        -webkit-filter:brightness(.6);
+    }
+    }

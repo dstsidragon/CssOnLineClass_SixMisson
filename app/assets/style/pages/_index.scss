@@ -11,3 +11,9 @@
         border-radius: 30px;
     }
 }
+.training-link{
+    &:hover{
+        color:#000000;
+        background: $lightGray !important;
+    }
+}
