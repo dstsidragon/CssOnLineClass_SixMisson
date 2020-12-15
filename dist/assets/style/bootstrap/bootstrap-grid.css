@@ -17,6 +17,8 @@ html {
 
 .container,
 .container-fluid,
+.container-mm,
+.container-pm,
 .container-sm,
 .container-md,
 .container-lg,
@@ -26,6 +28,14 @@ html {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
+
+@media (min-width: 320px) {
+  .container, .container-mm {
+    max-width: 100%; } }
+
+@media (min-width: 414px) {
+  .container, .container-mm, .container-pm {
+    max-width: 100%; } }
 
 @media (min-width: 576px) {
   .container, .container-mm, .container-pm, .container-sm {
