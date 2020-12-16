@@ -9,16 +9,19 @@ dl {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 0 !important; }
+  margin-bottom: 0 !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  font-weight: bold !important; }
 
 [type=button] {
-  -webkit-appearance: none;
+  -webkit-appearance: none !important;
   /* Safari 和 Chrome，常用於iOS下移除內建樣式 */
-  -moz-appearance: none;
+  -moz-appearance: none !important;
   /* FireFox */
-  appearance: none;
-  border: none;
-  outline: none; }
+  appearance: none !important;
+  border: none !important;
+  outline: none !important; }
 
 body {
   font-size: 16px !important;
@@ -20368,7 +20371,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 14px; }
 
 .fz-16 {
-  font-size: 16px; }
+  font-size: 16px !important; }
 
 .fz-18 {
   font-size: 18px; }
@@ -20523,6 +20526,25 @@ a.text-dark:hover, a.text-dark:focus {
   .postcard-img {
     -webkit-filter: brightness(0.6); }
 
+.pageChange {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .pageChange-link {
+    font-size: 20px; }
+    .pageChange-link:active, .pageChange-link:hover, .pageChange-link:focus {
+      color: #916000 !important;
+      text-decoration: underline !important; }
+    .pageChange-link-active {
+      color: #916000 !important;
+      text-decoration: underline !important; }
+
 .logoImg {
   width: 128px;
   height: auto;
@@ -20603,5 +20625,42 @@ a.text-dark:hover, a.text-dark:focus {
 .training-link:hover {
   color: #000000;
   background: #E0E0E0 !important; }
+
+.advertising-img {
+  height: 350px;
+  -o-object-position: center center;
+  object-position: center center; }
+  @media (min-width: 768px) {
+    .advertising-img {
+      height: 555px;
+      -o-object-fit: cover;
+      object-fit: cover; } }
+  .advertising-img-2 {
+    height: 680px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center; }
+    @media (min-width: 768px) {
+      .advertising-img-2 {
+        height: 1080px; } }
+
+.img-height-520 {
+  height: 520px; }
+
+.product-img {
+  height: 165px; }
+  @media (min-width: 768px) {
+    .product-img {
+      height: 255px; } }
+
+@media (min-width: 768px) {
+  .description {
+    position: absolute;
+    right: 0; } }
+
+.cart-py {
+  padding-top: 7px !important;
+  padding-bottom: 7px !important; }
 
 /*# sourceMappingURL=all.css.map */

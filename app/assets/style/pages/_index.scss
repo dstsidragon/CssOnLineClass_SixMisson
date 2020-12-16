@@ -17,3 +17,38 @@
         background: $lightGray !important;
     }
 }
+
+.advertising-img{
+    height: 350px;
+    -o-object-position: center center;
+    object-position: center center;
+
+    @include pad{
+        height: 555px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    &-2{
+        height: 680px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center center;
+        object-position: center center;
+    
+        @include pad{
+            height: 1080px;
+        }
+    }
+}
+
+
+.img-height-520{
+    height: 520px;
+}
+.product-img{
+    height: 165px;
+    @include pad{
+        height:255px;
+    }
+}

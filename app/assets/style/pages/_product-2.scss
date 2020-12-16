@@ -1,0 +1,12 @@
+
+  .description {
+    @include pad{
+      position: absolute;
+      right: 0;
+    }
+    
+  }
+  .cart-py{
+    padding-top: 7px!important;
+    padding-bottom: 7px !important;
+  }

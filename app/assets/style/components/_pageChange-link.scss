@@ -1,0 +1,20 @@
+.pageChange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-link{
+        font-size: 20px;
+        &:active,&:hover,&:focus{
+            color: $primary !important;
+            text-decoration: underline !important;
+        }
+
+        &-active{
+                color: $primary !important;
+                text-decoration: underline !important;
+            
+            
+        }
+        }
+}
