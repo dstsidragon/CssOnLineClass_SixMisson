@@ -10,9 +10,7 @@ dl {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0 !important;
-  font-size: 16px !important;
-  line-height: 1.5 !important;
-  font-weight: bold !important; }
+  line-height: 1.5 !important; }
 
 [type=button] {
   -webkit-appearance: none !important;
@@ -20,7 +18,14 @@ h1, h2, h3, h4, h5, h6,
   -moz-appearance: none !important;
   /* FireFox */
   appearance: none !important;
-  border: none !important;
+  outline: none !important; }
+
+[type=submit] {
+  -webkit-appearance: none !important;
+  /* Safari 和 Chrome，常用於iOS下移除內建樣式 */
+  -moz-appearance: none !important;
+  /* FireFox */
+  appearance: none !important;
   outline: none !important; }
 
 body {
@@ -20662,5 +20667,10 @@ a.text-dark:hover, a.text-dark:focus {
 .cart-py {
   padding-top: 7px !important;
   padding-bottom: 7px !important; }
+
+.login-img {
+  background: center center no-repeat url(../images/login1.jpg);
+  background-size: cover;
+  padding-top: 100%; }
 
 /*# sourceMappingURL=all.css.map */

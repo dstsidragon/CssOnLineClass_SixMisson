@@ -8,8 +8,10 @@
 
 //util
 @import "util/util";
+
 //mixin
 @import "mixin/mixin";
+
 //components
 @import "components/navCard";
 @import "components/subscribe";
@@ -20,8 +22,7 @@
 @import "layout/navbar";
 @import "layout/footer";
 
-
-
 //Pages
 @import "pages/index";
 @import "pages/product-2";
+@import "pages/login";
