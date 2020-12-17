@@ -1,6 +1,21 @@
 
 $(document).ready(() => {
   
+  //訂閱
+  $('#subscribeButton').click(function (e) {
+    e.preventDefault();
+    $('#subscribeButton').removeAttr('data-target', '#subscribe');
+    if ($('#subscribeEmail').val() == '' ) {
+        alert('信箱地址不得為空');
+    }
+    else {
+        $('#subscribeEmail').val("");
+        $('#subscribeButton').attr('data-target', '#subscribe');
+        $('#subscribeButton').onclick;
+    }
+
+});
+  
   //登入頁面
   $('#loginButton').click(function (e) {
     e.preventDefault();
@@ -82,4 +97,7 @@ $(document).ready(() => {
  
 }
 )
+
+
+
 });

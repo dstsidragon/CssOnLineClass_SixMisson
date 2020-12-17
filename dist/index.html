@@ -229,11 +229,22 @@
     <h2 class="subscribe-tittle font-weight-bold text-darkGray fz-32  mb-3">記得<br>訂閱以獲取更多資訊！</h2>
    
     <div class="input-group-append">
-      <input type="email" class="subscribe-text p-1 p-sm-2 border-primary" placeholder="Your email address">
-      <a href="#" class="subscribe-link btn btn-outline-primary btn-primary text-white d-inline fz-16 p-1 p-sm-2 border-0" type="button" id="button-addon2">Subscribe</a>
+      <input type="email" class="subscribe-text p-1 p-sm-2 border-primary" id="subscribeEmail" placeholder="Your email address">
+      <a href="#" class="subscribe-link btn btn-outline-primary btn-primary text-white d-inline fz-16 p-1 p-sm-2 border-0" type="button" id="subscribeButton" data-toggle="modal" data-target="#subscribe">Subscribe</a>
       </div>
     </div>
     
+</div>
+
+<!-- Modal Start   subscribe  -->
+<div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="subscribeTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body text-primary fz-20 text-center font-weight-bold">
+        已開始訂閱
+      </div>
+    </div>
+  </div>
 </div>
 <!-- Subscribe end -->
   
