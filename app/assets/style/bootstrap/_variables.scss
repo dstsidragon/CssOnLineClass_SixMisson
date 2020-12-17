@@ -43,6 +43,7 @@ $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$black:    #000 !default;
 
 $colors: () !default;
 $colors: map-merge(
@@ -59,20 +60,28 @@ $colors: map-merge(
     "cyan":       $cyan,
     "white":      $white,
     "gray":       $gray-600,
-    "gray-dark":  $gray-800
+    "gray-dark":  $gray-800,
+    "black":       $black,
   ),
   $colors
 );
 
+ 
 $primary:       #916000 !default;
 $secondary:     #AC8A46 !default;
-$success:       #8D8D8D !default;
+$success:       rgb(48, 204, 48) !default;
 $info:          #707070 !default;
-$warning:       #FFFFFF !default;
+$warning:       #FFFFFF4D !default;
 $danger:        $red !default;
 $light:         #FFFFFF !default;
 $lightGray:      #E0E0E0 !default;
+$xlLightGray:    #848484!default;
+$smLightGray:    #818A91!default;
+$lgLightGray:    #A5A5A5!default;
 $dark:          $gray-800 !default;
+$darkGray:     #8D8D8D !default;
+$transparent:   transparent !default;
+
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -85,7 +94,12 @@ $theme-colors: map-merge(
     "danger":     $danger,
     "light":      $light,
     "lightGray":      $lightGray,
-    "dark":       $dark
+    "dark":       $dark,
+    "darkGray":    $darkGray,
+    "xlLightGray":  $xlLightGray,
+    "smLightGray":  $smLightGray,
+    "lgLightGray":  $lgLightGray,
+    "transparent":  $transparent,
   ),
   $theme-colors
 );
@@ -251,7 +265,7 @@ $container-max-widths: (
   mm: 100%,
   pm: 100%,
   sm: 100%,
-  md: 720px,
+  md: 750px,
   lg: 960px,
   xl: 1140px
 ) !default;

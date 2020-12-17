@@ -1,6 +1,7 @@
 
 //base
 @import "base/base";
+@import "base/variable";
 
 //bootstrap
 @import "bootstrap/bootstrap";
@@ -17,12 +18,14 @@
 @import "components/subscribe";
 @import "components/postcard";
 @import "components/pageChange-link";
+@import "components/valid";
 
 //layouts
 @import "layout/navbar";
 @import "layout/footer";
 
 //Pages
-@import "pages/index";
+@import "pages/_index";
 @import "pages/product-2";
 @import "pages/login";
+@import "pages/member";

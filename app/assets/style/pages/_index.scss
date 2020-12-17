@@ -9,12 +9,16 @@
 
     &-link{
         border-radius: 30px;
+        &:active,&:hover,&:focus{
+            background-color: $warning !important;
+            color:$light !important;
+        }
     }
 }
 .training-link{
     &:hover{
         color:#000000;
-        background: $lightGray !important;
+        background: $warning !important;
     }
 }
 

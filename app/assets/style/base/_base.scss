@@ -40,6 +40,31 @@ body{
 
 
 a{
-    display: block !important;
+    color: #000 !important;
 }
 
+.material-icons {
+  vertical-align: bottom;
+}
+
+[type=checkbox]:checked {
+  background: #916019 ;
+  background-color: #916019 ;
+  border-color: #916019 ;
+  &::after {
+    content: '';
+    top: 3px;
+    left: 3px;
+    position: absolute;
+    background: transparent;
+    border: #fff solid 2px;
+    border-top: none;
+    border-right: none;
+    height: 5px;
+    width: 8px;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    
+}
+}

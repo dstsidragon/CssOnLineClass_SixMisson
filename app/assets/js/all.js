@@ -6,6 +6,8 @@ $(document).ready(() => {
     e.preventDefault();
     $('#InputPassword').removeClass('is-invalid');
     $('#InputEAccount').removeClass('is-invalid');
+    $('#InputPassword').removeClass('is-valid');
+    $('#InputEAccount').removeClass('is-valid');
 
     if ($('#InputEAccount').val() == '' || $('#InputPassword').val() == '') {
         // alert('帳號密碼不得為空')
@@ -24,7 +26,7 @@ $(document).ready(() => {
         }
     }
     else {
-        window.location.href = 'https://dstsidragon.github.io/CssOnLineClass_SixMisson/dist/member.html';
+        window.location.href = 'member.html';
         $('#InputEAccount').val('');
         $('#InputPassword').val('');
     }

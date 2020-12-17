@@ -121,3 +121,16 @@
 .text-decoration-line-through{
     text-decoration:line-through;
 }
+
+//hover顏色
+
+a.hover-font-light{
+    &:hover,&:active{
+        color: $light !important;
+    }
+}
+a.hover-font-primary{
+    &:hover,&:active{
+        color: $primary !important;
+    }
+}

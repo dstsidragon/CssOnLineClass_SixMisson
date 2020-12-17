@@ -1,5 +1,5 @@
 ---
-title: 登入
+title: 登入|D'PERFUME
 login: Log in
 layout: ./app/layout.ejs
 engine: ejs
@@ -8,7 +8,7 @@ current: index
 
 
 <!-- 品牌navCard star-->
-<div class="navCard-background container-fluid">
+<div class="navCard-background container-fluid d-none d-md-block">
   <ul class="navCard container">
     <li class="navCard-item"><a class="navCard-link mr-3" href="#">CHANEL</a></li>
     <li class="navCard-item"><a class="navCard-link mr-3" href="#">Jo Malone</a></li>
@@ -24,7 +24,7 @@ current: index
 
 <!-- content star-->
 <div class="container  mt-5 mt-md-10 mb-10 mb-md-7">
-  <div class="row">
+  <div class="row d-md-flex align-items-center">
     <div class="col-12 col-md-8 login-img mb-3">
     </div>
     <div class="col-md-4">
@@ -33,7 +33,7 @@ current: index
         <div class="form-group mb-2">
           <label class="fz-16 font-weight-bold" for="InputEAccount">帳號</label>
           <input type="email" class="form-control fz-16 ff-SF py-1" id="InputEAccount" aria-describedby="emailHelp" placeholder="email@example.com">
-          <div class="valid-feedback">
+          <div class="valid-feedback  text-vitality  font-weight-bold">
             Looks good!
           </div>
           <div class="invalid-feedback">
@@ -53,8 +53,8 @@ current: index
         <div class="d-flex align-items-center justify-content-between">
           <a class="d-block fz-16 font-weight-bold text-primary" href="#">忘記密碼</a>
           <div class=" d-flex align-items-center"> 
-            <a  class="btn btn-outline-primary mr-1 d-block py-1 px-2">註冊</a>
-             <a  href="member.html" class="btn btn-primary d-block py-1 px-2" id="loginButton">登入</a>
+            <a  class="btn btn-outline-primary text-primary hover-font-light mr-1 d-block py-1 px-2">註冊</a>
+             <a  href="member.html" class="btn btn-primary text-light d-block py-1 px-2" id="loginButton">登入</a>
           </div>
         </div>
       </form>
