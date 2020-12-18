@@ -98,6 +98,11 @@ $(document).ready(() => {
 }
 )
 
-
+//視差滾動
+$('div.subscribe').scrollingParallax();
 
 });
+
+
+
+

@@ -87,6 +87,8 @@ $(document).ready(function () {
         $('#checkNewPassword').val('');
       }
     }
-  });
+  }); //視差滾動
+
+  $('div.subscribe').scrollingParallax();
 });
 //# sourceMappingURL=all.js.map

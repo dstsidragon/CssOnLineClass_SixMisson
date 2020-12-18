@@ -1,0 +1,15 @@
+/*官網寫要使用自訂效果要加入以下*/
+
+
+[data-aos] {
+    visibility: hidden;
+  }
+  [data-aos].animate__animated {
+    visibility: visible;
+  }
+  
+  /*設定作動時間及延遲*/
+  :root{
+    --animate-duration:1800ms;
+    --animation-delay:0.1s;
+  }
