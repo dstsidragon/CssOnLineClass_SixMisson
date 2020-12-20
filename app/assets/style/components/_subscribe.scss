@@ -4,7 +4,9 @@
     background-size: cover;
     /* 沒內文時可以看到的最小高度 */
 
+   @include pc{
     background-attachment: fixed; /* 固定圖像 */
+   }
     
 }
 .subscribe-link{

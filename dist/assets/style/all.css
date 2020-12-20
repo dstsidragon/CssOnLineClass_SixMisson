@@ -21122,9 +21122,11 @@ a.hover-font-primary:hover, a.hover-font-primary:active {
   height: 600px;
   background: center center no-repeat url(../images/index10.jpg);
   background-size: cover;
-  /* 沒內文時可以看到的最小高度 */
-  background-attachment: fixed;
-  /* 固定圖像 */ }
+  /* 沒內文時可以看到的最小高度 */ }
+  @media (min-width: 992px) {
+    .subscribe {
+      background-attachment: fixed;
+      /* 固定圖像 */ } }
 
 .subscribe-link {
   font-family: SF Pro Text;
