@@ -36,6 +36,9 @@ body{
     line-height: 1.5 !important;
     color:#000000 !important;
     font-family:蘋方-繁 !important;
+
+    //防止 aos 動畫進入後出現 x 軸
+    overflow-x: hidden !important;
 }
 
 
@@ -68,3 +71,4 @@ a{
     
 }
 }
+

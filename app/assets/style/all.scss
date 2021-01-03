@@ -16,10 +16,13 @@
 //components
 @import "components/navCard";
 @import "components/subscribe";
-@import "components/postcard";
+@import "components/postCard";
 @import "components/pageChange-link";
 @import "components/valid";
-@import "components/aos+animate";
+@import "components/rounded";
+
+//helpers
+@import "helpers/aosSetting";
 
 //layouts
 @import "layout/navbar";

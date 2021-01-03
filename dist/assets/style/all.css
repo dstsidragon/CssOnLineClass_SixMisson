@@ -32,7 +32,8 @@ body {
   font-size: 16px !important;
   line-height: 1.5 !important;
   color: #000000 !important;
-  font-family: 蘋方-繁 !important; }
+  font-family: 蘋方-繁 !important;
+  overflow-x: hidden !important; }
 
 a {
   color: #000 !important; }
@@ -21145,10 +21146,12 @@ a.hover-font-primary:hover, a.hover-font-primary:active {
 .subscribe-text {
   border-radius: 4px; }
 
-.postcard {
+.postCard {
   font-family: SF Pro Text; }
-  .postcard-img {
-    -webkit-filter: brightness(0.6); }
+  .postCard-img {
+    -webkit-filter: brightness(0.6);
+    -o-object-fit: cover !important;
+       object-fit: cover !important; }
 
 .pageChange {
   display: -webkit-box;
@@ -21161,6 +21164,7 @@ a.hover-font-primary:hover, a.hover-font-primary:active {
       -ms-flex-align: center;
           align-items: center; }
   .pageChange-link {
+    display: block;
     font-size: 20px; }
     .pageChange-link:active, .pageChange-link:hover, .pageChange-link:focus {
       color: #916000 !important;
@@ -21171,6 +21175,36 @@ a.hover-font-primary:hover, a.hover-font-primary:active {
 
 .was-validated .form-control:valid, .form-control.is-valid {
   border-color: #30cc30 !important; }
+
+.rounded-left {
+  border-radius: 4px 0 0 4px  !important; }
+
+.rounded-right {
+  border-radius: 0 4px 4px  0  !important; }
+
+@media (min-width: 768px) {
+  .rounded-md {
+    border-radius: 4px 4px 4px 4px !important; } }
+
+@media (min-width: 768px) {
+  .rounded-md-left {
+    border-radius: 4px 0 0 4px !important; } }
+
+@media (min-width: 768px) {
+  .rounded-md-none {
+    border-radius: 0 0 0 0 !important; } }
+
+@media (min-width: 992px) {
+  .rounded-lg-left {
+    border-radius: 4px 0 0 4px !important; } }
+
+@media (min-width: 992px) {
+  .rounded-lg-right {
+    border-radius: 0 4px 4px  0 !important; } }
+
+@media (min-width: 992px) {
+  .rounded-lg-none {
+    border-radius: 0 0 0 0 !important; } }
 
 /*官網寫要使用自訂效果要加入以下*/
 [data-aos] {
@@ -21255,7 +21289,7 @@ a.hover-font-primary:hover, a.hover-font-primary:active {
   height: 480px;
   background-size: cover;
   font-family: SF Pro Text; }
-  @media (min-width: 568px) {
+  @media (min-width: 768px) {
     .banner {
       height: 870px; } }
   .banner-link {
@@ -21265,8 +21299,8 @@ a.hover-font-primary:hover, a.hover-font-primary:active {
       color: #FFFFFF !important; }
 
 .training-link:hover {
-  color: #000000;
-  background: #FFFFFF4D !important; }
+  color: #FFFFFF !important;
+  background: black !important; }
 
 .advertising-img {
   height: 350px;
@@ -21309,6 +21343,12 @@ a.hover-font-primary:hover, a.hover-font-primary:active {
   background: center center no-repeat url(../images/login1.jpg);
   background-size: cover;
   padding-top: 100%; }
+  @media (min-width: 768px) {
+    .login-img {
+      height: 506px;
+      background-size: auto;
+      background: center center no-repeat url(../images/login2.jpg);
+      padding-top: 0%; } }
 
 .member-link:hover, .member-link:active {
   border-color: #916000 !important; }

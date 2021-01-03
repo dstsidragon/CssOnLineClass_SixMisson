@@ -43,41 +43,58 @@ current: index
       <hr class="mb-2">
       <form class="row mb-6">
         <!-- 會員帳號 -->
-        <div class="col-12 form-group row mb-2">
+        <div class="col-12 form-group  mb-2">
+          <div class="row">
           <label for="staticEmail" class="col-5 col-md-3 col-form-label fz-16 text-smLightGray">會員帳號</label>
-            <input type="text" readonly class="col-7 col-md-9 form-control-plaintext fz-16 text-smLightGray" id="staticEmail" value="email@example.com">
+          <input type="text" readonly class="col-7  form-control-plaintext fz-16 text-smLightGray" id="staticEmail" value="email@example.com">
+          </div>
         </div>
         <!-- 會員姓名 -->
-        <div class="col-12 form-group row mb-2">
-          <label for="name" class="col-5 col-md-3 col-form-label fz-16 text-smLightGray">會員姓名</label>
-          <input type="text" class="col-7 col-md-9 form-control fz-16 text-smLightGray px-1" id="name" placeholder="請輸入姓名" aria-describedby="name">
+        <div class="col-12 form-group mb-2">
+          <div class="row">
+            <label for="name" class="col-5 col-md-3 col-form-label fz-16 text-smLightGray">會員姓名</label>
+          <input type="text" class="col-7  form-control fz-16 text-smLightGray px-1" id="name" placeholder="請輸入姓名" aria-describedby="name">
+          </div>
+          
         </div>  
         <!-- 會員性別 -->
-        <div class="col-12 form-group row mb-2">
+        <div class="col-12 form-group mb-2">
+          <div class="row">
+            
           <label for="gender" class="col-5 col-md-3 col-form-label fz-16 text-smLightGray">會員性別</label>
-          <div class="col-3 col-md-3 pl-0 pr-1 ">
-            <select name="gender" class="form-control fz-16 text-smLightGray px-1" id="gender">
+          <div class="col-3 pl-0 pr-1 ">
+            <select name="gender" class="form-control  fz-16 text-smLightGray px-1" id="gender">
               <option value="男">男</option>
               <option value="女">女</option>
             </select>
           </div>
+          </div>
         </div>
         <!-- 電子信箱 -->
-        <div class="col-12 form-group row mb-2">
+        <div class="col-12 form-group  mb-2">
+          <div class="row">
+            
           <label for="email" class="col-5 col-md-3 col-form-label fz-16 text-smLightGray">電子信箱</label>
-          <input type="email" class="col-7 col-md-9 form-control px-1 fz-16 text-smLightGray" id="email" placeholder="email@example.com"  >
+          <input type="email" class="col-7  form-control px-1 fz-16 text-smLightGray" id="email" placeholder="email@example.com"  >
+          </div>
         </div>  
         <!-- 手機號碼 -->
-        <div class="col-12 form-group row mb-2">
+        <div class="col-12 form-group  mb-2">
+          <div class="row">
+            
           <label for="tel" class="col-5 col-md-3 col-form-label fz-16 text-smLightGray">手機號碼</label>
-          <input type="tel" class="col-7 col-md-9 form-control fz-16 text-smLightGray px-1" id="tel" placeholder="091234567" >
+          <input type="tel" class="col-7  form-control fz-16 text-smLightGray px-1" id="tel" placeholder="091234567" >
+          </div>
         </div>  
         <!-- 聯絡地址 -->
-        <div class="col-12 form-group row mb-5">
+        <div class="col-12 form-group  mb-5">
+          <div class="row">
+            
             <label class="col-5 col-md-3 col-form-label fz-16 text-smLightGray" for="inputCuntry">聯絡地址</label>
-        <div class="col-7 col-md-9 row">
-          
-          <select id="inputCuntry" class="col-8 form-control mb-1 px-1">
+        <div class="col-7 ">
+          <div class="row">
+            
+          <select id="inputCuntry" class="col-9 col-md-7 form-control mb-1 px-1">
             <option selected>台灣及離島</option>
             <option>外國</option>
           </select>
@@ -95,44 +112,52 @@ current: index
           </select>
           </div>
           </div>
+          </div>
+          </div>
           
-      </div>
-      <input type="text" class="offset-5 offset-md-3 col-7 col-md-9 form-control fz-16 text-smLightGray px-1 mb-1" id="inputAddress" placeholder="請輸入地址" >
-      <div class="form-check offset-5 offset-md-3 col-7 col-md-9">
+      <input type="text" class="offset-5 offset-md-3 col-7  form-control fz-16 text-smLightGray px-1 mb-1" id="inputAddress" placeholder="請輸入地址" >
+      
+      <div class="form-check offset-5 offset-md-3 col-7">
         <input class="form-check-input  border-primary "  type="checkbox" value="news" id="invalidCheck" required>
         <label class="form-check-label fz-16 text-smLightGray" for="invalidCheck">
           我願意收到最新優惠情報
         </label>
         </div>
       </div>
+      </div>
         <!-- 配送地址 delivery -->
-        <div class="col-12 form-group row mb-2">
+        <div class="col-12 form-group  mb-2">
+          <div class="row">
+            
           <label class="col-5 col-md-3 col-form-label fz-16 text-smLightGray" for="deliveryCuntry">配送地址</label>
-      <div class="col-7 col-md-9 row">
+          <div class="col-7 ">
+            <div class="row">
+              
+            <select id="inputCuntry" class="col-9 col-md-7 form-control mb-1 px-1">
+              <option selected>台灣及離島</option>
+              <option>外國</option>
+            </select>
+            <div class="form-row mb-1">
+              <div class="col">
+              <select id="inputCity" class="form-control px-1">
+              <option selected>台南市</option>
+              <option>台中市</option>
+            </select>
+              </div>
+                <div class="col">
+            <select id="inputArea" class="form-control px-1">
+              <option selected>永康區</option>
+              <option>北區</option>
+            </select>
+            </div>
+            </div>
+            </div>
+            </div>
         
-        <select id="deliveryCuntry" class="col-8 form-control mb-1 px-1">
-          <option selected>台灣及離島</option>
-          <option>外國</option>
-        </select>
-        <div class="form-row mb-1">
-          <div class="col">
-          <select id="deliveryCity" class="form-control px-1">
-          <option selected>台南市</option>
-          <option>台中市</option>
-        </select>
-          </div>
-            <div class="col">
-        <select id="deliveryArea" class="form-control px-1">
-          <option selected>永康區</option>
-          <option>北區</option>
-        </select>
-        </div>
-        </div>
-        
-    </div>
-    <input type="text" class="offset-5 offset-md-3 col-7 col-md-9 form-control fz-16 text-smLightGray px-1 mb-1" id="deliveryAddress" placeholder="請輸入地址" >
+    <input type="text" class="offset-5 offset-md-3 col-7  form-control fz-16 text-smLightGray px-1 mb-1" id="deliveryAddress" placeholder="請輸入地址" >
     
-    <button type="submit" class="offset-5 offset-md-3 col-4 col-md-9 btn btn-primary fz-16 "> 確定修改</button>
+    <button type="submit" class="offset-5 offset-md-3 col-4  btn btn-primary fz-16 "> 確定修改</button>
+    </div>
     </div>
         
          
@@ -142,36 +167,43 @@ current: index
       <h2 class=" fz-16 font-weight-bold ">修改密碼</h2>
       <hr>
       <form class="row ">
-      <div class="col-12 form-group row mb-2">
-        <label  class="col-5 col-md-3 col-form-label fz-16 text-smLightGray"for="OldPassword">舊密碼</label>
-        <input type="password" class="col-7 col-md-9 form-control fz-16 text-smLightGray px-1" id="OldPassword" >
-        <div class="valid-feedback">
-          Looks good!
-        </div>
-        <div class="invalid-feedback">
-          密碼不得為空
-        </div>
-      </div>
-      <div class="col-12 form-group row mb-2">
-        <label  class="col-5 col-md-3 col-form-label fz-16 text-smLightGray"for="NewPassword">新密碼</label>
-        <input type="password" class="col-7 col-md-9 form-control fz-16 text-smLightGray px-1" id="NewPassword" >
-        <div class="valid-feedback">
-          Looks good!
-        </div>
-        <div class="invalid-feedback">
-          密碼不得為空
+      <div class="col-12 form-group  mb-2">
+        <div class="row">
+          <label  class="col-5 col-md-3 col-form-label fz-16 text-smLightGray"for="OldPassword">舊密碼</label>
+          <input type="password" class="col-7 col-md-9 form-control fz-16 text-smLightGray px-1" id="OldPassword" >
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            密碼不得為空
+          </div>
+
         </div>
       </div>
-      <div class="col-12 form-group row mb-2">
-        <label  class="col-5 col-md-3 col-form-label fz-16 text-smLightGray"for="checkNewPassword">確認密碼</label>
-        <input type="password" class="col-7 col-md-9 form-control fz-16 text-smLightGray px-1" id="checkNewPassword" >
-        <div class="valid-feedback">
-          Looks good!
+      <div class="col-12 form-group  mb-2">
+        <div class="row">
+          <label  class="col-5 col-md-3 col-form-label fz-16 text-smLightGray"for="NewPassword">新密碼</label>
+          <input type="password" class="col-7 col-md-9 form-control fz-16 text-smLightGray px-1" id="NewPassword" >
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            密碼不得為空
+          </div>
         </div>
-        <div class="invalid-feedback">
-          密碼不得為空
+      </div>
+      <div class="col-12 form-group  mb-2">
+        <div class="row">
+          <label  class="col-5 col-md-3 col-form-label fz-16 text-smLightGray"for="checkNewPassword">確認密碼</label>
+          <input type="password" class="col-7 col-md-9 form-control fz-16 text-smLightGray px-1" id="checkNewPassword" >
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            密碼不得為空
+          </div>
+          <button type="submit" class="offset-5 offset-md-3 col-4  btn btn-primary fz-16 mt-2" id="changePasswordButton"> 變更密碼</button>
         </div>
-        <button type="submit" class="offset-5 offset-md-3 col-4 col-md-9 btn btn-primary fz-16 mt-2" id="changePasswordButton"> 變更密碼</button>
       </div>
       
     </form>

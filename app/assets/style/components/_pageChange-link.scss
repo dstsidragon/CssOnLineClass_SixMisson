@@ -4,6 +4,7 @@
     align-items: center;
 
     &-link{
+        display: block;
         font-size: 20px;
         &:active,&:hover,&:focus{
             color: $primary !important;

@@ -3,7 +3,7 @@
     height: 480px;
     background-size: cover;
     font-family: SF Pro Text;
-    @include mobile{
+    @include pad{
         height: 870px;
     }
 
@@ -17,8 +17,8 @@
 }
 .training-link{
     &:hover{
-        color:#000000;
-        background: $warning !important;
+        color:#FFFFFF !important;
+        background: black !important;
     }
 }
 

@@ -2,4 +2,9 @@
     background: center center no-repeat url(../images/login1.jpg);
     background-size: cover;
     padding-top: 100%;
+    @include pad{
+        height: 506px;
+        background-size:auto;
+        background: center center no-repeat url(../images/login2.jpg);padding-top: 0%;
+    }
 }

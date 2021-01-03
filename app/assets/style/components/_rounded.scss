@@ -1,0 +1,46 @@
+.rounded{
+    &-left {
+        border-radius: 4px 0 0 4px  !important;
+    } 
+    &-right{
+        border-radius: 0 4px 4px  0  !important;
+      }
+    &-md{
+    @include pad{
+        border-radius: 4px 4px 4px 4px !important;
+    }
+    }
+    &-md{
+        &-left{
+            
+            @include pad{
+                border-radius: 4px 0 0 4px !important;
+            }
+        }
+        &-none{
+            @include pad{
+                border-radius:0 0 0 0 !important;
+            }
+        }
+  }
+    &-lg{
+        &-left{
+            
+            @include pc{
+                border-radius: 4px 0 0 4px !important;
+            }
+        }
+        &-right{
+            
+            @include pc{
+                border-radius: 0 4px 4px  0 !important;
+            }
+        }
+        &-none{
+            @include pc{
+                border-radius:0 0 0 0 !important;
+            }
+        }
+  }
+
+}
